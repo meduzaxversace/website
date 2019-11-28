@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello World</title>
+    <script type="text/javascript">
+        //function for tittle scrolling
+        (function titleScroller(text) {
+            document.title = text;
+            setTimeout(function () {
+                titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 500);
+        }(" Hello sir. I hope you have a nice day "));
+    </script>
 </head>
 <body>
 
