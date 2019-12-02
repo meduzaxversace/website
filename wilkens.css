@@ -1,0 +1,47 @@
+body {
+    font-family:"Arial","sans-serif";
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+    border-right: 2px solid white;
+}
+
+div.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+table {
+    width: 49%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td.blue {
+    background-color: deepskyblue;
+}
+
+td.green {
+    background-color: lawngreen;
+}
+
+article {
+    float:left;
+    width: 49%;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
