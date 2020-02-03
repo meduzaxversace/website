@@ -1,0 +1,152 @@
+/* Default for phones */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: rgb(235, 228, 228);
+}
+
+header {
+    background-color: rgb(175, 238, 217);
+    width: 100%;
+    height: 25vh;
+}
+
+.header-image {
+    height: 80%;
+    width: 80vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    font-weight: 700;
+}
+
+.nav-item {
+    display: block;
+    background-color: #777;
+    margin-bottom: 1px;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: rgb(88, 88, 88);
+    transition: all .2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article {
+    width: 95%;
+}
+
+h2 {
+    color: rgb(207, 126, 126);
+    margin: 30px 0px 0px 20px;
+}
+
+.article-image, p {
+    margin: 30px 0px 0px 20px;
+}
+
+.article-image {
+    width: 90%;
+    
+}
+
+/* For tablets */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .nav-item {
+        display: inline-block;
+        margin-left: 2%;
+    }
+
+    nav {
+        background-color: #777;
+    }
+
+    .article {
+        max-width: 60%;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        margin-bottom: 50px;
+    }
+
+    #news {
+        max-width: 30%;
+    }
+    
+    #drum {
+        float: right;
+        margin-right: 5%;
+    }
+
+    #guitar {
+        float: right;
+        margin-right: 5%;
+    }
+
+    #saxophone {
+        float: right;
+        margin-right: 5%;
+    }
+
+    #trumpet {
+        float: right;
+        margin-right: 5%;
+    }
+
+
+}
+
+/* For desktop */
+@media only screen and (min-width: 768px) {
+    .nav-item {
+        display: inline-block;
+        padding-left:2%;
+        padding-right: 2%;
+    }
+
+    nav {
+        background-color: #777;
+    }
+
+    .article {
+        max-width: 30%;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        margin-bottom: 50px;
+    }
+
+    .article-image {
+        max-width: 90%;
+    }
+
+    #news {
+        max-width: 30%;
+    }
+    
+    #drum {
+        margin-right: 20px;
+    }
+
+    #saxophone {
+        margin-left: 30%;
+        margin-right: 20px;
+    }
+}
+
+
